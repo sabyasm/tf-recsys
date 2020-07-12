@@ -24,7 +24,7 @@ setup(
         'requests',
         'pandas',
         'numpy',
-        'tensorflow>=1.2.0',
+        'tensorflow>=1.12.0',
     ],
 
     classifiers=[
