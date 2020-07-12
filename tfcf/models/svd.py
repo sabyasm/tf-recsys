@@ -207,8 +207,8 @@ class SVD(BaseModel):
                         ('val_mae', mae(valid_y, valid_pred))
                     ]
 
-                pbar.update(step, values=update_values,
-                            force=(step == steps_per_epoch))
+ #               pbar.update(step, values=update_values,
+ #                           force=(step == steps_per_epoch))
 
     def train(self, x, y, epochs=100, batch_size=1024, validation_data=None):
 
